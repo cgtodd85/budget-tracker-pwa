@@ -19,6 +19,7 @@ th {
   border: 1px solid #383838;
   text-align: left;
   padding: 8px;
+  background-color: #949494;
 }
 
 tr:nth-child(odd) {
