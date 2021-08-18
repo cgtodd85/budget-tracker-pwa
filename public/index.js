@@ -94,7 +94,7 @@ function sendTransaction(isAdding) {
   }
 
   // create record
-  let transaction = {
+  const transaction = {
     name: nameEl.value,
     value: amountEl.value,
     date: new Date().toISOString(),
@@ -136,6 +136,7 @@ function sendTransaction(isAdding) {
     })
     .catch((err) => {
       // fetch failed, so save in indexed db
+      console.log("save record");
       saveRecord(transaction);
 
       // clear form
