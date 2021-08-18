@@ -1,9 +1,11 @@
 body {
+  background-color: #8bd8c6;
   font-size: 120%;
   font-family: Arial;
 }
 
-button, input {
+button,
+input {
   font-size: 100%;
   font-family: Arial;
 }
@@ -12,14 +14,19 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td,
+th {
+  border: 1px solid #383838;
   text-align: left;
   padding: 8px;
 }
 
+tr:nth-child(odd) {
+  background-color: #ffc2f0;
+}
+
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #d19fd3;
 }
 
 .error {
