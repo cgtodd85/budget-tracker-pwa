@@ -14,12 +14,15 @@ table {
   width: 100%;
 }
 
+.table-header {
+  background-color: #a5a5a5;
+}
+
 td,
 th {
   border: 1px solid #383838;
   text-align: left;
   padding: 8px;
-  background-color: #949494;
 }
 
 tr:nth-child(odd) {
