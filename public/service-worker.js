@@ -10,8 +10,8 @@ const FILES_TO_CACHE = [
   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
 ];
 
-const CACHE_NAME = "static-cache-v2";
-const DATA_CACHE_NAME = "data-cache-v1";
+const CACHE_NAME = "static-cache-v3";
+const DATA_CACHE_NAME = "data-cache-v2";
 
 // install
 self.addEventListener("install", (evt) => {
